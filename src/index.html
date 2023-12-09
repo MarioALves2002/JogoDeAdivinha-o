@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Projetinho da sprint 01</title>
+</head>
+<body>
+    <main>
+        <h1>Tente descobrir o número!!</h1>
+        <section>
+            <div class="VerificarNumber">
+                <input type="text" id="num-one"><br>
+                <button onclick="compararNumero()">Verificar</button>
+                <span id="resultArea"></span>
+            </div>
+        </section>
+        
+        <section>
+            <button onclick="gerarNumeroAleatorio()">Gerar Número Aleatório</button>
+            <div class="RandomNumber" id="info">Número aleatório</div>
+            <button id="toggle-btn" onclick="ocultNumber()">Ocultar</button>
+        </section>
+        
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
